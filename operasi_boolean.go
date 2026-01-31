@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var nilaiAkhir = 89
+	var absensi = 87
+	
+	var lulusNilaiAkhir = nilaiAkhir >= 80
+	var lulusAbsensi = absensi >= 80
+	var lulus = lulusNilaiAkhir && lulusAbsensi
+	fmt.Println("Nilai Akhir       :", nilaiAkhir)
+	fmt.Println("Absensi           :", absensi)
+	fmt.Println("Lulus Nilai Akhir :", lulusNilaiAkhir)
+	fmt.Println("Lulus Absensi     :", lulusAbsensi)
+	fmt.Println("Lulus Semua       :", lulus)
+}
